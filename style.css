@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../website/nature.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a{
+    color: rgb(253, 216, 7);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a{
+    border: 1px solid darkkhaki;
+
+}
+
+.main-nav li a:hover{
+    border: 1px solid darkkhaki;
+}
+
+body{
+    font-family: monospace;
+
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+}
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px; 
+    margin-top: 0px;
+}
+
+
+h1{
+    color: rgb(238, 203, 6);
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 275px
+}
+ 
+h2{
+    color: solid black;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 270px;
+}
+
+h3{
+    color: solid black;
+    font-family: monospace sans-serif;
+    font-size: 24px;
+    text-align: left;
+}
+    
+
+.button{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn{
+    border: 1px solid darkslategrey;
+    padding: 10px 30px;
+    color: darksalmon;
+    text-decoration: none;
+    margin-right: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one{
+    background-color: dimgray;
+    font-family: "roboto" sans-serif;
+}
+
+.btn-two{
+    font-family:"roboto" sans-serif;
+
+}
+
+.btn-two:hover{
+    background-color: dimgray;
+}
+
+.contact box{
+    width: 300px;
+    background-color: rgb(248, 109, 10);
+    box-shadow: coral;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+form{
+    margin: 35px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px saddlebrown;
+    border-radius: 14px;
+    outline:none ;
+}
+
+.textarea-field{
+    height: 150px;
+    scroll-padding-top: 10px;
+
+}
+
+.btn-three{
+    border-radius: 20px;
+    color: seagreen;
+    margin-top: 18px;
+    background-color: rgb(168, 108, 28);
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
